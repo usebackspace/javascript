@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        document.write("<h2>Counting from 1 to 5 using a for loop:</h2>");
+        var i=1;
+        for (i; i <= 5; i++) 
+        {
+          document.write( i + "<br>");
+        }
+
+    </script>
+    <br><br><br>
+    <script>  
+        var i=1;
+        for (; i <= 5; i++) 
+        {
+          document.write( i + "<br>");
+        }
+    </script>
+    <br><br><br>
+    <script>
+
+        var i=1;
+        for (; ; i++) 
+        {
+            if(i==2)
+            {
+                break;
+            }
+          document.write( i + "<br>");
+        }
+      
+      </script>
+      
+</body>
+</html>
+
+<!--  for loop
+
+for (initialization; condition; increment/decrement) {
+  // Code to be executed in each iteration
+}
+
+
+Initialization:This part is executed once before the loop starts. It typically initializes a loop control variable.
+
+Condition: The loop will continue executing as long as this condition is `true`. When the condition becomes `false`, the loop terminates.
+
+Increment/Decrement: After each iteration, this part is executed to modify the loop control variable, usually to move closer to the termination condition.
+
+Here's an example of a `for` loop that counts from 1 to 5:
+ -->
