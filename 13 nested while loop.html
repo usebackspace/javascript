@@ -9,11 +9,18 @@
      
 <script>
  var i=0;
- while(i<5)
+ while(i<3)
  {
-  document.write("While loop "+i +"<br>");
+  document.write("Outer loop <br>");
   i++;
+  var j=0;
+  while(j<3)
+  {
+    document.write("Inner loop <br>");
+    j++;
+  }
  }
+ document.write("loop closed")
 </script>
     
 
