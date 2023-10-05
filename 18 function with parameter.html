@@ -16,14 +16,33 @@
         
         document.write("<br> <br>")
         //function with more than one parameter
-        function argu(x,y){
+        function print(x,y){
             document.write(x + " " +y);
         }
-        argu("Version",3.8);
+        print("Version",3.8);
         
 
     </script>
 
+
+    <!-- function argument missing -->
+    <script>
+        // passing more values than parameter
+        document.write("<br> <br>")
+        document.write("Passing more values than parameter ")
+        document.write("<br> <br>")
+
+        //function with more than one parameter
+        function print(x,y,z){
+            document.write("x: "+ x + ", " + "y: " + y +", "+ "z: "+z);
+        }
+        print(2,3);
+        
+
+
+
+
+    </script>
 </body>
 </html>
 

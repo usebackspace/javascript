@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Global Scope Or Global Variable-->
+    <!-- <script>
+        var i ="Global Scope Or Global Variable";
+        document.write(i +"<br><br>")
+        function print(){
+            document.write("Inside Print function :  " + i +"<br><br>"); 
+        }
+        print();
+        document.write("Below print Function <br> <br> ");
+        document.write(i+"<br><br>");
+        function display(){
+            document.write("Inside  Display function : " + i+"<br><br>"); 
+        }
+        display();
+    </script> -->
+
+    <!-- Local Scope and Local variable -->
+    <script>
+        
+        function print(){
+            var  j ="local Scope Or local Variable";
+            document.write("Inside Print function :  " + j +"<br><br>"); 
+        }
+        print();
+        document.write(j +"<br><br>");
+        
+
+        function display(){
+            document.write("Inside  Display function : " + j+"<br><br>"); 
+        }
+        display();
+
+
+    </script>
+
+</body>
+</html>
+ 
+
+<!-- In local Scope if variable is declare with var keyword inside the function then it is a local scope 
+     or local variable.
+     If var keyword is removed inside the function then it is consider as a global scope  -->
