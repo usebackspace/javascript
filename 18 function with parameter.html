@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+<!--     
     <script>
         //function with one parameter
         function print(name){
@@ -22,7 +22,7 @@
         print("Version",3.8);
         
 
-    </script>
+    </script> -->
 
 
     <!-- function argument missing -->
@@ -36,10 +36,15 @@
         function print(x,y,z){
             document.write("x: "+ x + ", " + "y: " + y +", "+ "z: "+z);
         }
-        print(2,3);
+        print(2,4,6);
         
-
-
+    document.write("<br>")
+    // function with multiple parameter
+    function print(x,y,...args){
+                document.write("x: "+ x + ", " + "y: " + y +", "+ "z: "+args);
+            }
+            print(2,4,6,4,5,6,6,7,4,3,2,3,45,5,);
+        
 
 
     </script>

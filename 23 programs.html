@@ -8,7 +8,7 @@
 <body>
 <h1>Factorial Program</h1>
     <!-- Factorial Of A Number -->
-    <script>
+    <!-- <script>
         let i=1;
         let fact=parseInt(prompt("Enter any Number For Factorial :"));
         for(i;i<=4;i++)
@@ -16,18 +16,45 @@
             fact=fact*i;
         }
         document.write("Factorial is :"+fact)
-    </script>
+    </script> -->
 <br><br><br>
  <h1>Table Program</h1>
   <!--Table Program  -->
 
-    <script>
+    <!-- <script>
         let j=1;
         let n= parseInt(prompt("Enter The Number For Table:"));
         for(j;j<=10;j++){
             document.write(n+" * "+j+" = "+ n*j+"<br>");
         }
 
+
+    </script> -->
+
+
+    <h1>Prime Number Program</h1>
+    <script>
+        function prime(num) {
+
+        if (num <= 1) {
+            return false;
+        }
+
+        for (let i = 2; i <num; i++) {
+            if (num % i === 0) {
+            return false; 
+            }
+        }
+
+        return true; 
+        }
+
+        const num = 14; 
+        if (prime(num)) {
+        document.write(num + " is a prime number.");
+        } else {
+        document.write(num + " is not a prime number.");
+        }
 
     </script>
 </body>

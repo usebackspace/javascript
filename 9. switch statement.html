@@ -9,12 +9,11 @@
 <body>
         
     <script>
-        var day = prompt('enter day')
+        var day = parseInt(prompt('enter day'));
         var dayName;
 
         switch (day) {
-        case 'sun':
-        case 'SUN':
+        case 0:
             dayName = "Sunday";
             break;
         case 1:
